@@ -1,0 +1,4 @@
+Linear Regression is different from Regression 
+Linear Regression - the assumption is the relation ship betrween variables is assumed to be linear
+Lightgbm does Regression ( it can capture both Linear and Non Linear pattern) Ensemble Decision Tree 
+

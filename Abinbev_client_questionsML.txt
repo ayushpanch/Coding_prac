@@ -1,0 +1,66 @@
+When to impute with mean and median ? 
+impute with mean when data is normally distirbuted 
+impute with median when data is rightly or leftly skewed
+
+
+What is difference between R squared and Adjusted R squared ? 
+Rsquared will add if we keep on increasing variables However Adjusted R squared will penalise
+Write the formula for them ? 
+
+How do you check correlation between various independet varaibles ? 
+Answer - VIF
+
+What is the Range of R squared ? 
+0 to 1 
+What is Range of Correlation ? 
+Answer -1 to 1 
+
+
+What is the difference between covariance and correlation ? 
+correlation - simple if one variable is highly correlated with another variable that means what one variable
+ is explaining can be explained by other variables as well hence instead of two variables we will go with one varaibles
+covariance - if one varaible is changed how much other variable is changed 
+
+What is MAE , MAPE, CV score 
+MAE = 1/total points sum of all points(Actual - Predicted)
+
+MAPE = (Sum of all data points (Actual - Predicted)/Actual)/number of data points * 100 
+
+MAPE = over percentage
+MAE = without peercentage
+
+Precision = proportion of True positive / All positive predictions instance
+Recall = proportion of True Positives / All Actual Positive Instance 
+
+MAE = summation (for all data points abs(actual - predicted) )/(all data points )
+L1 loss = summation (for all data points abs(actual - predicted) )
+L2 loss =  summation (for all data points (sqaureroot(actual - pred)^2) )
+
+
+if there are outliers with the data 
+ - i will use L1 loss 
+ 
+  
+
+
+
+
+
+
+
+What is F1 Score ?  2PR/P + R - because of class imbalence 
+Why harmonic mean is used not arithmetic means ? 
+F1 Score gives more weight to lower values 
+
+
+Just writting the formula of R squared and Adj R squared
+R2 = 1 - (RSS/ TSS) 
+RSS - Residual sum of squared = for all datapoints (actual - predicted )^2
+TSS - Total Sum of squared = for all data points (Actual - Avg of Actual)^2
+
+Adjusted R squared = 1 - (((1- R2)(n -1))/(n - k-1))
+n - number of observations
+k = number of independent variables 
+
+Tweedie Loss 
+= -1/N (Actual * Predicted^(1-P)/1-P  + Predicted^(2-P)/2-P   )

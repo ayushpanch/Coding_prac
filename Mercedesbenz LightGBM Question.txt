@@ -1,0 +1,4 @@
+Q) How Feature importance is calculated using Lighgbm Gain method ? 
+Answer - loss function 
+(Root Node) - (Split 1) 
+(Root Node) - (split 2) 
